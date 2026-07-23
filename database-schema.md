@@ -11,7 +11,7 @@ Primary datastore is PostgreSQL. All models inherit from a `TenantModel` that en
 
 ### `User`
 - `id`: UUID (PK)
-- `organization_id`: UUID (FK)
+- `organization_id`: UUID (FK) 
 - `email`: VARCHAR(255) (UNIQUE)
 - `role`: ENUM('ADMIN', 'MANAGER', 'USER')
 - `password_hash`: VARCHAR(255)
