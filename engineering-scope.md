@@ -6,7 +6,7 @@ This document defines the strict engineering scope for the Minimum Viable Produc
 
 **Authentication & Security:**
 - JWT-based authentication.
-- Multi-tenant data segregation at the database query layer.
+- Multi-tenant data segregation at the database query layer. 
 
 **Core Data Pipelines:**
 - Async CSV ingestion handling up to 10,000 rows per file without timing out.
